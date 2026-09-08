@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial sacle=1.0">
+        <title>Webbie -  Make Friends,Chat,Let go of your heavy 
+            feelings</title>
+            <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+            <style>
+                body {
+                    background-color: azure;
+                    color:black;
+                    text-align: center;
+                    font-family: 'Segoe UI','Segoe UI', Tahoma;
+                    padding-top: 15%;
+                }
+                .top-panel {
+            background-color: #00008B; /* Dark blue */
+            color: white;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 15px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+        }
+        .tagline {
+            font-family: 'Pacifico', cursive;
+            font-size: 28px;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            width: 350px;
+            z-index: 10;
+        }
+        
+        .big-welcome mate {
+            font-size: 3.5em; 
+            margin: 20px 0;
+            color: #333;
+            line-height: 1.2;
+                textarea{
+                    width:80%;
+                    max-width: 400px;
+                    height: 120px;
+                    border-radius: 12px;
+                    padding:15px;
+                    font-family: inherit;
+                    font-style: italic;
+                    background-color: lightblue ;
+                    color:black ;
+                    border: 2px solid #041E42;
+                }
+                button{
+                    margin-top: 20px;
+                    padding: 12px 24px;
+                    background-color: #041E42;
+                    color: white;
+                    border: none;
+                    border-radius: 25px;
+                    font-weight: bold;
+                    cursor: pointer;
+
+                }
+                button:hover {
+            background-color: #0056b3;
+        }
+                input[type="text"] {
+            padding: 12px;
+            width: 80%;
+            margin-top: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        
+        ul {
+            text-align: left;
+            margin-bottom: 20px;
+            background: #f9f9f9;
+            padding: 15px 30px;
+            border-radius: 8px;
+        }
+        #page2 {
+            display: none;
+        }
+    }
+                
+    
+            </style>
+    </head>
+<body>
+    <div id="page1">
+        <div class="top-panel">
+            <p class="tagline"> Webbieee... Make friends,Chat,let go 
+                of your feelings...</p>
+        </div>
+        
+        <div class="container">
+            <h1 class="big-welcome">Welcome Mate!<br><span id="welcome-username" style="color: #007bff;"></span>!</h1>
+            <button id="bon-voyage-btn">Bon voyage !</button>
+        </div>
+    </div>
+
+    <div id="page2" class="container">
+        <h2> Ready to start your Journey...</h2>
+        <ul id="things-list">
+            <li>Make friends</li>
+            <li>Let go bottled up feelings in a bottle</li>
+            <li>Pick up bottles at your shore</li>
+        </ul>
+        <label for="user-input" style="font-weight: bold;">Choose your username:</label><br>
+        <input type="text" id="user-input" placeholder="Type here...">
+        <button id="randomize-btn">Randomise option</button>
+        </div>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
